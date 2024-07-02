@@ -1,30 +1,8 @@
--- phpMyAdmin SQL Dump
--- version 4.4.14
--- http://www.phpmyadmin.net
---
--- Host: 127.0.0.1
--- Generation Time: Jun 28, 2017 at 07:57 PM
--- Server version: 5.6.26
--- PHP Version: 5.5.28
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `carrental`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `admin`
---
 
 CREATE TABLE IF NOT EXISTS `admin` (
   `id` int(11) NOT NULL,
@@ -174,7 +152,7 @@ CREATE TABLE IF NOT EXISTS `tblsubscribers` (
 --
 
 INSERT INTO `tblsubscribers` (`id`, `SubscriberEmail`, `PostingDate`) VALUES
-(1, 'anuj.lpu1@gmail.com', '2017-06-22 16:35:32');
+(1, 'aditya.lpu1@gmail.com', '2017-06-22 16:35:32');
 
 -- --------------------------------------------------------
 
@@ -223,10 +201,10 @@ CREATE TABLE IF NOT EXISTS `tblusers` (
 --
 
 INSERT INTO `tblusers` (`id`, `FullName`, `EmailId`, `Password`, `ContactNo`, `dob`, `Address`, `City`, `Country`, `RegDate`, `UpdationDate`) VALUES
-(1, 'Anuj Kumar', 'demo@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2147483647', NULL, NULL, NULL, NULL, '2017-06-17 19:59:27', '2017-06-26 21:02:58'),
-(2, 'AK', 'anuj@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '8285703354', NULL, NULL, NULL, NULL, '2017-06-17 20:00:49', '2017-06-26 21:03:09'),
-(3, 'Anuj Kumar', 'webhostingamigo@gmail.com', 'f09df7868d52e12bba658982dbd79821', '09999857868', '03/02/1990', 'New Delhi', 'New Delhi', 'New Delhi', '2017-06-17 20:01:43', '2017-06-17 21:07:41'),
-(4, 'Anuj Kumar', 'test@gmail.com', '5c428d8875d2948607f3e3fe134d71b4', '9999857868', '', 'New Delhi', 'Delhi', 'Delhi', '2017-06-17 20:03:36', '2017-06-26 19:18:14');
+(1, 'Aditya Prakash', 'demo@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2147483647', NULL, NULL, NULL, NULL, '2024-06-17 19:59:27', '2024-06-26 21:02:58'),
+(2, 'AS', 'ananyasingh@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '8285703354', NULL, NULL, NULL, NULL, '2024-06-17 20:00:49', '2024-06-26 21:03:09'),
+(3, 'Anu Kumari', 'webhostingamigo@gmail.com', 'f09df7868d52e12bba658982dbd79821', '09924537868', '03/02/1990', 'New Delhi', 'New Delhi', 'New Delhi', '2024-06-17 20:01:43', '2024-06-17 21:07:41'),
+(4, 'Amogha Singh', 'test@gmail.com', '5c428d8875d2948607f3e3fe134d71b4', '999983228', '', 'New Delhi', 'Delhi', 'Delhi', '2024-06-17 20:03:36', '2024-06-26 19:18:14');
 
 -- --------------------------------------------------------
 
